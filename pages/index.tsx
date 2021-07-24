@@ -20,7 +20,7 @@ export default function Home() {
 
         <p className={styles.description}>
           sample page
-          <button onClick={() => router.push("/sample")} size="sm">
+          <button onClick={() => router.push("/sample")}>
             pages/sample/index.js
           </button>
         </p>
