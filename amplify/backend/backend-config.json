@@ -5,19 +5,5 @@
       "providerPlugin": "awscloudformation",
       "type": "manual"
     }
-  },
-  "api": {
-    "nextdeploysample": {
-      "service": "AppSync",
-      "providerPlugin": "awscloudformation",
-      "output": {
-        "authConfig": {
-          "defaultAuthentication": {
-            "authenticationType": "AWS_IAM"
-          },
-          "additionalAuthenticationProviders": []
-        }
-      }
-    }
   }
 }
